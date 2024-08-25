@@ -1,0 +1,14 @@
+{
+  "name": "secret-shadows",
+  "version": "1.0.0",
+  "description": "Chat application with authentication and 24h message lifespan",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node server/app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3"
+  }
+}

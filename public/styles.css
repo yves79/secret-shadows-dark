@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #2e003e; /* Dark Purple Background */
+    color: #e0e0e0; /* Light Text */
+}
+
+header {
+    background-color: #1e001a; /* Darker Purple */
+    padding: 10px;
+    text-align: center;
+}
+
+.chat-container, .login-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #3e003e;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.chat-box {
+    height: 400px;
+    overflow-y: scroll;
+    border: 1px solid #444;
+    background-color: #3e003e;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input, button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+input {
+    width: 80%;
+    background-color: #4e004e;
+    color: #fff;
+}
+
+button {
+    width: 18%;
+    background-color: #600060;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #800080;
+}
